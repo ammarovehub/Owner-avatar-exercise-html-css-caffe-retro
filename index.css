@@ -47,3 +47,7 @@ section {
 #juice {
     background: url(assets/juicy.jpg) no-repeat center center/cover;
 }
+
+#cosy {
+    background: url(assets/cosy.jpg);
+}
