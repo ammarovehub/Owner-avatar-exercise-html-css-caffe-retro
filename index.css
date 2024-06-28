@@ -1,7 +1,33 @@
 /* darkzide coffeshop styling*/
 
 * {
-    color: darkred;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1;
+    z-index: 1000;
+}
+
+.navbar .link {
+    padding-block: 1rem;
 }
 
 section {
@@ -16,4 +42,8 @@ section {
 
 #hot {
     background: url(assets/hot.jpg) no-repeat center center/cover;
+}
+
+#juice {
+    background: url(assets/juicy.jpg) no-repeat center center/cover;
 }
