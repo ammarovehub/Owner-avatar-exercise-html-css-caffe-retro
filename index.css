@@ -49,5 +49,5 @@ section {
 }
 
 #cosy {
-    background: url(assets/cosy.jpg);
+    background: url(assets/cosy.jpg) no-repeat center center/cover;
 }
