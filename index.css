@@ -47,6 +47,18 @@ section {
     color: white;
 }
 
+.box {
+    
+}
+
+.box.red {
+    background-color: rgba(139, 0, 0, 0.801);
+}
+
+.box.black {
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
 #hot {
     background: url(assets/hot.jpg) no-repeat center center/cover;
 }
