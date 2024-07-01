@@ -13,21 +13,28 @@ html{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding: 4rem;
+    padding: 1rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.8);
     color: whitesmoke;
     text-align: center;
-    font-size: 1;
+    font-size: 1.5rem;
     z-index: 1000;
 }
 
 .navbar .link {
-    padding-block: 1rem;
+    padding: 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar .link:hover {
+    color: #5a0101;
 }
 
 section {
