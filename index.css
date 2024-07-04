@@ -3,6 +3,7 @@
 * {
     font-family: "Poiret One", sans-serif;
     margin: 0;
+    
 }
 
 html{
@@ -65,6 +66,10 @@ section {
 
 .box.black {
     background-color: rgba(0, 0, 0, 0.801);
+}
+
+.box.black .row {
+    justify-content: space-between;
 }
 
 #hot {
