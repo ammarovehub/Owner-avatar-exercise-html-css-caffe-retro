@@ -55,6 +55,14 @@ section {
     background-color: rgba(139, 0, 0, 0.801);
 }
 
+.box.red.first {
+    left: 10rem;
+}
+
+.box.red.second {
+    right: 10rem;
+}
+
 .box.black {
     background-color: rgba(0, 0, 0, 0.801);
 }
