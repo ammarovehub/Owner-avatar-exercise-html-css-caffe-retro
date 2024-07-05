@@ -48,6 +48,10 @@ section {
     color: white;
 }
 
+.header {
+    color: #5a0101;
+}
+
 .box {
     margin-bottom: 1rem;
     padding: 1rem;
