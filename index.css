@@ -52,6 +52,12 @@ section {
     color: #5a0101;
 }
 
+h1 {
+    font-family: 'Spirax', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
 .box {
     margin-bottom: 1rem;
     padding: 1rem;
